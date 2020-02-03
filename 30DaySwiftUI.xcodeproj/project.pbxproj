@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE55596323E78D210073D65D /* NewCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55596223E78D210073D65D /* NewCounter.swift */; };
+		AE9129F823E7994D0038B698 /* TextWallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9129F723E7994D0038B698 /* TextWallpaper.swift */; };
 		AE9461C223E68C92004FF080 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9461C123E68C92004FF080 /* CounterView.swift */; };
 		AECF4E7123E64F44004F38F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF4E7023E64F44004F38F4 /* AppDelegate.swift */; };
 		AECF4E7323E64F44004F38F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF4E7223E64F44004F38F4 /* SceneDelegate.swift */; };
 		AECF4E7623E64F44004F38F4 /* _0DaySwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AECF4E7423E64F44004F38F4 /* _0DaySwiftUI.xcdatamodeld */; };
-		AECF4E7823E64F44004F38F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF4E7723E64F44004F38F4 /* ContentView.swift */; };
 		AECF4E7A23E64F45004F38F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECF4E7923E64F45004F38F4 /* Assets.xcassets */; };
 		AECF4E7D23E64F45004F38F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AECF4E7C23E64F45004F38F4 /* Preview Assets.xcassets */; };
 		AECF4E8023E64F45004F38F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AECF4E7E23E64F45004F38F4 /* LaunchScreen.storyboard */; };
 		AECF4E8B23E64F45004F38F4 /* _0DaySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF4E8A23E64F45004F38F4 /* _0DaySwiftUITests.swift */; };
 		AECF4E9623E64F45004F38F4 /* _0DaySwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF4E9523E64F45004F38F4 /* _0DaySwiftUIUITests.swift */; };
-		AEE753D023E74AAD00ED53B7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE753CF23E74AAD00ED53B7 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE55596223E78D210073D65D /* NewCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCounter.swift; sourceTree = "<group>"; };
+		AE9129F723E7994D0038B698 /* TextWallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWallpaper.swift; sourceTree = "<group>"; };
 		AE9461C123E68C92004FF080 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		AECF4E6D23E64F44004F38F4 /* 30DaySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 30DaySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECF4E7023E64F44004F38F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AECF4E7223E64F44004F38F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AECF4E7523E64F44004F38F4 /* _0DaySwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _0DaySwiftUI.xcdatamodel; sourceTree = "<group>"; };
-		AECF4E7723E64F44004F38F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AECF4E7923E64F45004F38F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AECF4E7C23E64F45004F38F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AECF4E7F23E64F45004F38F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,7 +55,6 @@
 		AECF4E9123E64F45004F38F4 /* 30DaySwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 30DaySwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECF4E9523E64F45004F38F4 /* _0DaySwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0DaySwiftUIUITests.swift; sourceTree = "<group>"; };
 		AECF4E9723E64F45004F38F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEE753CF23E74AAD00ED53B7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +107,9 @@
 			children = (
 				AECF4E7023E64F44004F38F4 /* AppDelegate.swift */,
 				AECF4E7223E64F44004F38F4 /* SceneDelegate.swift */,
-				AECF4E7723E64F44004F38F4 /* ContentView.swift */,
-				AEE753CF23E74AAD00ED53B7 /* MenuView.swift */,
 				AE9461C123E68C92004FF080 /* CounterView.swift */,
+				AE9129F723E7994D0038B698 /* TextWallpaper.swift */,
+				AE55596223E78D210073D65D /* NewCounter.swift */,
 				AECF4E7923E64F45004F38F4 /* Assets.xcassets */,
 				AECF4E7E23E64F45004F38F4 /* LaunchScreen.storyboard */,
 				AECF4E8123E64F45004F38F4 /* Info.plist */,
@@ -277,11 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AECF4E7123E64F44004F38F4 /* AppDelegate.swift in Sources */,
-				AEE753D023E74AAD00ED53B7 /* MenuView.swift in Sources */,
 				AECF4E7323E64F44004F38F4 /* SceneDelegate.swift in Sources */,
-				AECF4E7823E64F44004F38F4 /* ContentView.swift in Sources */,
 				AECF4E7623E64F44004F38F4 /* _0DaySwiftUI.xcdatamodeld in Sources */,
+				AE55596323E78D210073D65D /* NewCounter.swift in Sources */,
 				AE9461C223E68C92004FF080 /* CounterView.swift in Sources */,
+				AE9129F823E7994D0038B698 /* TextWallpaper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
