@@ -52,7 +52,7 @@ struct TextWallpaper: View {
 
 
 
-struct GuessFlag_Previews: PreviewProvider {
+struct TextWallpaper_Previews: PreviewProvider {
     static var previews: some View {
         TextWallpaper()
     }

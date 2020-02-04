@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE55596323E78D210073D65D /* NewCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55596223E78D210073D65D /* NewCounter.swift */; };
+		AE7EE3E523E91A940058BD02 /* RandomGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EE3E423E91A940058BD02 /* RandomGradient.swift */; };
 		AE9129F823E7994D0038B698 /* TextWallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9129F723E7994D0038B698 /* TextWallpaper.swift */; };
 		AE9461C223E68C92004FF080 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9461C123E68C92004FF080 /* CounterView.swift */; };
 		AECF4E7123E64F44004F38F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF4E7023E64F44004F38F4 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		AE55596223E78D210073D65D /* NewCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCounter.swift; sourceTree = "<group>"; };
+		AE7EE3E423E91A940058BD02 /* RandomGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGradient.swift; sourceTree = "<group>"; };
 		AE9129F723E7994D0038B698 /* TextWallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWallpaper.swift; sourceTree = "<group>"; };
 		AE9461C123E68C92004FF080 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		AECF4E6D23E64F44004F38F4 /* 30DaySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 30DaySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE7EE3E323E91A650058BD02 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
 		AECF4E6423E64F44004F38F4 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +118,8 @@
 				AECF4E7223E64F44004F38F4 /* SceneDelegate.swift */,
 				AE9461C123E68C92004FF080 /* CounterView.swift */,
 				AE9129F723E7994D0038B698 /* TextWallpaper.swift */,
+				AE7EE3E423E91A940058BD02 /* RandomGradient.swift */,
+				AE7EE3E323E91A650058BD02 /* Tutorial */,
 				AE55596223E78D210073D65D /* NewCounter.swift */,
 				AECF4E7923E64F45004F38F4 /* Assets.xcassets */,
 				AECF4E7E23E64F45004F38F4 /* LaunchScreen.storyboard */,
@@ -282,6 +293,7 @@
 				AE55596323E78D210073D65D /* NewCounter.swift in Sources */,
 				AE9461C223E68C92004FF080 /* CounterView.swift in Sources */,
 				AE9129F823E7994D0038B698 /* TextWallpaper.swift in Sources */,
+				AE7EE3E523E91A940058BD02 /* RandomGradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
