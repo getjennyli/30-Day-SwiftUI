@@ -30,6 +30,8 @@ struct CounterView: View {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [color1, color2]), startPoint: .topLeading, endPoint: .bottomTrailing)
                 .edgesIgnoringSafeArea(.all)
+                .watermarked(with: "Made with love in NY")
+
             VStack(alignment: .leading, spacing: 12) {
                 Spacer()
                 

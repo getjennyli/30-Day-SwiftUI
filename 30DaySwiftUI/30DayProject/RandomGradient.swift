@@ -29,10 +29,11 @@ struct RandomGradient: View {
     var body: some View {
         
         ZStack(alignment: .bottom) {
-            
+
             LinearGradient(gradient: Gradient(colors: [color1, color2]), startPoint: .topLeading, endPoint: .bottomTrailing)
                 .edgesIgnoringSafeArea(.all)
-            
+                .watermarked(with: "Made with love in NY")
+
             VStack(spacing: 0) {
                 
                 Button(action: {
@@ -49,6 +50,7 @@ struct RandomGradient: View {
                     .cornerRadius(100)
                     .padding(.bottom, 24)
             }
+           
         }
         
     }

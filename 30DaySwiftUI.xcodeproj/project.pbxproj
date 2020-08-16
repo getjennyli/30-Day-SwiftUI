@@ -13,7 +13,9 @@
 		AE7A5EA123EA484C00E471AB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7A5EA023EA484C00E471AB /* MenuView.swift */; };
 		AE7EE3E523E91A940058BD02 /* RandomGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7EE3E423E91A940058BD02 /* RandomGradient.swift */; };
 		AE9129F823E7994D0038B698 /* TextWallpaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9129F723E7994D0038B698 /* TextWallpaper.swift */; };
+		AE91642A23ED229F00FE4AD2 /* RockPaperScissor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE91642923ED229F00FE4AD2 /* RockPaperScissor.swift */; };
 		AE9461C223E68C92004FF080 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9461C123E68C92004FF080 /* CounterView.swift */; };
+		AEC269D023EBCEC8006BEFA6 /* D5.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC269CF23EBCEC8006BEFA6 /* D5.swift */; };
 		AECF4E7123E64F44004F38F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF4E7023E64F44004F38F4 /* AppDelegate.swift */; };
 		AECF4E7323E64F44004F38F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF4E7223E64F44004F38F4 /* SceneDelegate.swift */; };
 		AECF4E7623E64F44004F38F4 /* _0DaySwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AECF4E7423E64F44004F38F4 /* _0DaySwiftUI.xcdatamodeld */; };
@@ -48,7 +50,10 @@
 		AE7A5EA023EA484C00E471AB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		AE7EE3E423E91A940058BD02 /* RandomGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGradient.swift; sourceTree = "<group>"; };
 		AE9129F723E7994D0038B698 /* TextWallpaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWallpaper.swift; sourceTree = "<group>"; };
+		AE91642923ED229F00FE4AD2 /* RockPaperScissor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissor.swift; sourceTree = "<group>"; };
 		AE9461C123E68C92004FF080 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		AEC24D1024B638960045D735 /* 30DaySwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 30DaySwiftUI.entitlements; sourceTree = "<group>"; };
+		AEC269CF23EBCEC8006BEFA6 /* D5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D5.swift; sourceTree = "<group>"; };
 		AECF4E6D23E64F44004F38F4 /* 30DaySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 30DaySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECF4E7023E64F44004F38F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AECF4E7223E64F44004F38F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,9 +98,22 @@
 		AE7EE3E323E91A650058BD02 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				AEC269CF23EBCEC8006BEFA6 /* D5.swift */,
 				AE6AC1DA23EA235E002ADAA2 /* GuessFlag.swift */,
 			);
 			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		AE91642B23ED22EE00FE4AD2 /* 30DayProject */ = {
+			isa = PBXGroup;
+			children = (
+				AE9461C123E68C92004FF080 /* CounterView.swift */,
+				AE9129F723E7994D0038B698 /* TextWallpaper.swift */,
+				AE7EE3E423E91A940058BD02 /* RandomGradient.swift */,
+				AE7A5E9E23EA3C3700E471AB /* GuessNumber.swift */,
+				AE91642923ED229F00FE4AD2 /* RockPaperScissor.swift */,
+			);
+			path = 30DayProject;
 			sourceTree = "<group>";
 		};
 		AECF4E6423E64F44004F38F4 = {
@@ -121,14 +139,12 @@
 		AECF4E6F23E64F44004F38F4 /* 30DaySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				AEC24D1024B638960045D735 /* 30DaySwiftUI.entitlements */,
 				AECF4E7023E64F44004F38F4 /* AppDelegate.swift */,
 				AECF4E7223E64F44004F38F4 /* SceneDelegate.swift */,
-				AE9461C123E68C92004FF080 /* CounterView.swift */,
 				AE7A5EA023EA484C00E471AB /* MenuView.swift */,
-				AE9129F723E7994D0038B698 /* TextWallpaper.swift */,
-				AE7EE3E423E91A940058BD02 /* RandomGradient.swift */,
-				AE7A5E9E23EA3C3700E471AB /* GuessNumber.swift */,
 				AE7EE3E323E91A650058BD02 /* Tutorial */,
+				AE91642B23ED22EE00FE4AD2 /* 30DayProject */,
 				AE55596223E78D210073D65D /* NewCounter.swift */,
 				AECF4E7923E64F45004F38F4 /* Assets.xcassets */,
 				AECF4E7E23E64F45004F38F4 /* LaunchScreen.storyboard */,
@@ -302,8 +318,10 @@
 				AE6AC1DB23EA235E002ADAA2 /* GuessFlag.swift in Sources */,
 				AE55596323E78D210073D65D /* NewCounter.swift in Sources */,
 				AE7A5EA123EA484C00E471AB /* MenuView.swift in Sources */,
+				AE91642A23ED229F00FE4AD2 /* RockPaperScissor.swift in Sources */,
 				AE7A5E9F23EA3C3700E471AB /* GuessNumber.swift in Sources */,
 				AE9461C223E68C92004FF080 /* CounterView.swift in Sources */,
+				AEC269D023EBCEC8006BEFA6 /* D5.swift in Sources */,
 				AE9129F823E7994D0038B698 /* TextWallpaper.swift in Sources */,
 				AE7EE3E523E91A940058BD02 /* RandomGradient.swift in Sources */,
 			);
@@ -470,6 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 30DaySwiftUI/30DaySwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"30DaySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 62984LQ3R2;
@@ -481,6 +500,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianili.-0DaySwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -490,6 +510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = 30DaySwiftUI/30DaySwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"30DaySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 62984LQ3R2;
@@ -501,6 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianili.-0DaySwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

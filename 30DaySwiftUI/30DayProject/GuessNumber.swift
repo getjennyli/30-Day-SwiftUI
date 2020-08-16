@@ -20,6 +20,7 @@ struct GuessNumber: View {
     
        ZStack {
               Color(red:0.67, green:0.78, blue:0.87).edgesIgnoringSafeArea(.all)
+                .watermarked(with: "Made with love in NY")
 
             VStack(spacing:12) {
                 Spacer()
@@ -66,7 +67,7 @@ struct GuessNumber: View {
             Alert(title: Text(resultTitle), message: Text("Word"), dismissButton: .default(Text("Continue")) {
                 //                self.askQuestion()
                 })
-        }
+       }
     }
     func guessTapped() {
         if Int(guessedNumber) == answer {

@@ -15,9 +15,10 @@ struct TextWallpaper: View {
         
         ZStack {
             Color.white.edgesIgnoringSafeArea(.all)
+
             Color.black
                 .edgesIgnoringSafeArea(.all)
-           
+
             VStack {
                 Color(red:0.98, green:0.93, blue:0.82)
                     .edgesIgnoringSafeArea(.all)
